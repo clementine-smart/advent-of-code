@@ -2,7 +2,7 @@ import { getInput } from '../../utils'
 
 const input: string = getInput(__dirname, '6')
 
-function findMarker(input: string, startOfPack: number) {
+function findMarker(input: string, startOfPack: number): number {
   const signals: string[] = input.split('')
   let testSignals: string[] = []
   let count: number = 0
